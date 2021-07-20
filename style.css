@@ -1,0 +1,191 @@
+/*
+Theme Name: Bonarka
+Author: Agencja Reklamowa Komart
+Author URI: https://komart.online
+Description: Bonarka
+Version: 1.0.0
+Text Domain: bonarka
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+# Woocommerce
+# Footer
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+body {
+  margin: 0;
+  -webkit-font-smoothing: auto;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+.nav-icon {
+	width: 40px;
+	}
+
+.nav-icon:after, 
+.nav-icon:before, 
+.nav-icon div {
+	background-color: #484848;
+	border-radius: 3px;
+	content: '';
+	display: block;
+	height: 5px;
+	margin: 7px 0;
+	transition: all .2s ease-in-out;
+	}
+
+.navbar-toggler {
+	padding: 0px;
+	border: none;
+	background: transparent !important;
+	}
+
+.navbar-toggler .nav-icon:before {
+	transform: translateY(12px) rotate(135deg);
+	}
+
+.navbar-toggler .nav-icon:after {
+	transform: translateY(-12px) rotate(-135deg);
+	}
+
+.navbar-toggler .nav-icon div {
+	transform: scale(0);
+	}
+
+.navbar-toggler.collapsed .nav-icon:before {
+	transform:translateY(0) rotate(0);
+	}
+
+.navbar-toggler.collapsed .nav-icon:after {
+	transform:translateY(0) rotate(0);
+	}
+
+.navbar-toggler.collapsed .nav-icon div {
+	transform: scale(1);
+	}
+
+/* END NAVIGATION ICON */
+
+
+/* ---------- MEDIA ---------- */
+
+
+@media (min-width: 481px) { 
+	
+}
+
+
+@media (min-width: 576px) {
+
+}
+
+
+@media (min-width: 768px) {
+	
+}
+
+
+@media (max-width: 767px) {
+
+}
+
+
+@media (min-width: 992px) {
+	
+}
+
+
+@media (max-width: 991px) {
+
+}
+
+
+@media (min-width: 1200px) {
+	
+}
+
+
+@media (max-width: 767px) {
+
+}
+
+/* END MEDIA */
+/*--------------------------------------------------------------
+# Media Query
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Notebook
+--------------------------------------------------------------*/
+@media only screen and (max-width: 1280px) {
+  html {
+    font-size: 95%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .navbar-dark .dropdown-item {
+    color: #fff;
+  }
+  .navbar-nav .dropdown-menu {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+  }
+}
+/*--------------------------------------------------------------
+## Netbook
+--------------------------------------------------------------*/
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 90%;
+  }
+}
